@@ -1,0 +1,45 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{	
+	"$basetexture" 			"models\survivors\ninjamai\cheerleader\Body_clr"
+	"$bumpmap" 			"models\survivors\ninjamai\cheerleader\Body_nrm"
+
+	"$nodecal" 			"0"
+	"$model" 				"1"
+	"$phong" 			"1"
+	"$phongboost" 			"7"
+	$phongfresnelranges 		"[.1 .1 .1]"
+               "$phongexponent" 			"5"
+	$phongalbedotint 			1
+
+	"$envmap" 			"env_cubemap"
+	"$envmaptint" 			"[.01 .01 .01]"	
+	$envmapfresnel 			1
+	$envmapFresnelMinMaxExp		 "[0 1 .4]"
+	$normalmapalphaenvmapmask	1
+
+	"$rimlight" 			"1" 
+	"$rimlightexponent" 			"1"
+	"$rimlightboost" 			"0.5"
+
+	"$detail"				"models\survivors\ninjamai\cheerleader\Body_Detail"
+	"$detailscale" 			"40"
+	$detailblendfactor			1
+
+	"$lightwarptexture" 			"models\survivors\ninjamai\cheerleader\Body_warp"
+	$ambientocclusion 			0.25
+
+
+	"$alphatest"			"1"
+	"$alphatestreference"		".99"
+
+
+
+
+
+
+	}
+}
+

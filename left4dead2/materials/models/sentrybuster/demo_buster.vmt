@@ -1,0 +1,55 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\sentrybuster\demo_buster"
+	"$bumpmap" "models\sentrybuster\demo_buster_normal"
+	"$selfillum" "1"
+	
+	"$phong" "1"
+	"$phongexponent" "200"
+	"$phongboost" "4"	
+	"$phongfresnelranges"	"[.5 .7 1]"
+	"$halflambert" "0"
+	"$lightwarptexture" "models\sentrybuster\robot_lightwarp"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "1"				
+	"$rimlightboost" "2"
+	"$rimmask" "1"
+	
+	$glowcolor "[0 0 0]"
+	
+	"$commweapon"	"0"
+	
+	"$tempvar" "0"
+	
+	"$commadd_phongexponent" "30"
+	"$commadd_phongboost" 	"22.5"
+	
+	"$basephongexponent" "15"
+	"$basephongboost" "5"
+//
+//	$alpha 0
+//	$currenthp 1
+//
+//	$zero 0
+//	$one 1
+//
+//	Proxies
+//	{
+//		Health 
+//		{
+//			scale 1
+//			resultVar $currenthp
+//		}
+//		LessOrEqual
+//		{
+//			lessEqualVar $zero
+//			greaterVar $one
+//			srcVar1 $currenthp
+//			srcVar2 $zero
+//			resultVar $alpha
+//		}
+//	}
+}
